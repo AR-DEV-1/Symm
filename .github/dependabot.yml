@@ -1,0 +1,7 @@
+# Dependabot configuration for version updates
+version: 2
+updates:
+  - package-ecosystem: "none" 
+    directory: "/" # Directory where your package manifests are located
+    schedule:
+      interval: "weekly" # Update frequency (daily, weekly, monthly)
