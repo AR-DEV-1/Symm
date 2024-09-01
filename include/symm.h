@@ -10,21 +10,22 @@
 // Define the graphics module
 #ifdef SYMM_GRAPHICS_IMPLEMENTATION
 namespace symm_graphics {
-    SYMM_API void InitGraphics();
-    SYMM_API void RenderFrame();
-    SYMM_API void createObject();
-    SYMM_API void renderShaders();
-    SYMM_API void SymmCreateShaders();
+    SYMM_API void InitGraphics(); // Init Graphics
+    SYMM_API void RenderFrame(); // Render a frame
+    SYMM_API void createObject();  // Create a object
+    SYMM_API void renderShaders(); // Render shaders
+    SYMM_API void SymmCreateShaders(); // Create shaders
+    SYMM_API void renderFont(); //Render font
 }
 #endif
 
 // Define the audio module
 #ifdef SYMM_AUDIO_IMPLEMENTATION
 namespace symm_audio {
-    SYMM_API void InitAudio();
-    SYMM_API void PlaySound();
-    SYMM_API void replayAudio();
-    SYMM_API void AudioTimestamp();
+    SYMM_API void InitAudio(); // Init Audio
+    SYMM_API void PlaySound(); // Play sound/s
+    SYMM_API void replayAudio(); // Replay audio
+    SYMM_API void AudioTimestamp(); // The audio timestamp
 }
 #endif
 
