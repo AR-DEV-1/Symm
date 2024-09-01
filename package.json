@@ -1,0 +1,15 @@
+{
+  "name": "symm",
+  "version": "0.0.1-alpha",
+  "description": "Symm: The Universal API for All GPUs and Audio Devices",
+  "author": "AR-DEV-1",
+  "license": "GNU GPL 3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AR-DEV-1/Symm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AR-DEV-1/Symm/issues"
+  },
+  "homepage": "https://github.com/AR-DEV-1/Symm"
+}
