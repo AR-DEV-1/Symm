@@ -1,3 +1,5 @@
+
+##### Did you know that Symm is actually the first API which is made for all GPU's and Audio devices
 # Symm
 An opensource API for Computer Graphics and Audio
 # Reason I started this project:
