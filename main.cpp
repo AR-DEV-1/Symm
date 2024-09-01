@@ -1,2 +1,5 @@
 #define SYMM
+#define SYMM_IMPLEMENTATION
+#define SYMM_GRAPHICS_IMPLEMENTATION
+#define SYMM_AUDIO_IMPLEMENTATION
 #include "include/symm.h"
